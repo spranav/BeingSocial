@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <style>
+    /* ... (अनुसरण जारी रखें) ... */
+
+.photo-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+.carousel-slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+
+/* ... (अनुसरण जारी रखें) ... */
+
+.photo-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+.carousel-slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Stretch the image to full width */
+    height: 100%; /* Stretch the image to full height */
+    object-fit: cover; /* Maintain aspect ratio and fill the element */
+}
+
+.carousel-slide img {
+    width: 100%; /* Stretch the image to full width */
+    height: 100%; /* Stretch the image to full height */
+    object-fit: cover; /* Maintain aspect ratio and fill the element */
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+/* ... (अनुसरण जारी रखें) ... */
+
+.photo-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+.carousel-slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Stretch the image to full width */
+    height: 100%; /* Stretch the image to full height */
+    object-fit: cover; /* Maintain aspect ratio and fill the element */
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-slide img {
+    width: 100%; /* Stretch the image to full width */
+    height: 100%; /* Stretch the image to full height */
+    object-fit: cover; /* Maintain aspect ratio and fill the element */
+}
+
+.carousel-slide .caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+
+    </style>
+    <!-- ... (अनुसरण जारी रखें) ... -->
+</head>
+<body>
+    <header>
+        <!-- ... (अनुसरण जारी रखें) ... -->
+    </header>
+
+    <section class="hero-section">
+        <!-- ... (अनुसरण जारी रखें) ... -->
+    </section>
+
+    <section class="featured-stories">
+        <!-- ... (अनुसरण जारी रखें) ... -->
+    </section>
+
+    <section class="call-to-action">
+        <!-- ... (अनुसरण जारी रखें) ... -->
+    </section>
+
+    <!-- ... (अनुसरण जारी रखें) ... -->
+<section class="photo-carousel">
+    <div class="carousel-slide active">
+        <img src="1.jpg" alt="फ़ोटो 1">
+        <div class="caption">
+            Girl in the city
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="2.jpg" alt="फ़ोटो 2">
+        <div class="caption">
+          Boy with the cap
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="3.jpg" alt="फ़ोटो 3">
+        <div class="caption">
+           Music on the road
+        </div>
+    </div>
+</section>
+<!-- ... (अनुसरण जारी रखें) ... -->
+
+
+    <footer>
+        <!-- ... (अनुसरण जारी रखें) ... -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
